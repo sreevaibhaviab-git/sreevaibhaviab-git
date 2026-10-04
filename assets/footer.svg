@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="1200"
+height="170"
+viewBox="0 0 1200 170">
+
+<defs>
+
+<linearGradient id="bg" x1="0" x2="1">
+<stop offset="0%" stop-color="#ff4fa8"/>
+<stop offset="50%" stop-color="#a96cff"/>
+<stop offset="100%" stop-color="#59e5fa"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="7" result="x"/>
+<feMerge>
+<feMergeNode in="x"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<rect width="1200"
+height="170"
+rx="25"
+fill="#09090f"/>
+
+<rect x="100"
+y="49"
+width="1000"
+height="2"
+fill="url(#bg)"
+filter="url(#glow)">
+
+<animate attributeName="opacity"
+values=".3;1;.3"
+dur="2.5s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<text x="600"
+y="100"
+text-anchor="middle"
+font-family="monospace"
+font-size="15"
+letter-spacing="5"
+fill="#ffffff">
+
+BUILDING BEYOND THE OBVIOUS
+
+</text>
+
+<text x="600"
+y="134"
+text-anchor="middle"
+font-family="monospace"
+font-size="11"
+letter-spacing="3"
+fill="#9ca5b3">
+
+AB SREE VAIBHAVI / INTELLIGENT SYSTEMS
+
+</text>
+
+</svg>

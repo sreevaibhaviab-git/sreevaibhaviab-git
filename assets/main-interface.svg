@@ -1,0 +1,391 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+
+<defs>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#06060c"/>
+<stop offset="45%" stop-color="#130717"/>
+<stop offset="100%" stop-color="#061017"/>
+</linearGradient>
+
+<linearGradient id="rainbow" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ff4fa8">
+<animate attributeName="stop-color"
+values="#ff4fa8;#b86fff;#57e7ff;#ff4fa8"
+dur="6s" repeatCount="indefinite"/>
+</stop>
+
+<stop offset="50%" stop-color="#b86fff">
+<animate attributeName="stop-color"
+values="#b86fff;#57e7ff;#ff78bd;#b86fff"
+dur="6s" repeatCount="indefinite"/>
+</stop>
+
+<stop offset="100%" stop-color="#57e7ff">
+<animate attributeName="stop-color"
+values="#57e7ff;#ff4fa8;#b86fff;#57e7ff"
+dur="6s" repeatCount="indefinite"/>
+</stop>
+</linearGradient>
+
+<radialGradient id="pink">
+<stop offset="0%" stop-color="#ff4fa8" stop-opacity=".65"/>
+<stop offset="100%" stop-color="#ff4fa8" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="purple">
+<stop offset="0%" stop-color="#a868ff" stop-opacity=".55"/>
+<stop offset="100%" stop-color="#a868ff" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="blue">
+<stop offset="0%" stop-color="#56e4ff" stop-opacity=".45"/>
+<stop offset="100%" stop-color="#56e4ff" stop-opacity="0"/>
+</radialGradient>
+
+<filter id="blur">
+<feGaussianBlur stdDeviation="55"/>
+</filter>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="6" result="x"/>
+<feMerge>
+<feMergeNode in="x"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+<path d="M38 0H0V38"
+fill="none"
+stroke="#ffffff"
+stroke-opacity=".035"/>
+</pattern>
+
+</defs>
+
+<rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="720" rx="28" fill="url(#grid)"/>
+
+<circle cx="130" cy="150" r="300" fill="url(#pink)" filter="url(#blur)">
+<animate attributeName="cx" values="100;430;100" dur="10s" repeatCount="indefinite"/>
+<animate attributeName="cy" values="110;280;110" dur="8s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="950" cy="180" r="320" fill="url(#purple)" filter="url(#blur)">
+<animate attributeName="cx" values="1000;760;1000" dur="12s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="720" cy="650" r="260" fill="url(#blue)" filter="url(#blur)">
+<animate attributeName="cx" values="650;950;650" dur="11s" repeatCount="indefinite"/>
+</circle>
+
+<!-- decorative stars -->
+
+<g fill="#ffffff">
+
+<circle cx="100" cy="90" r="1.5">
+<animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1080" cy="130" r="2">
+<animate attributeName="opacity" values="1;.1;1" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1040" cy="570" r="1.5">
+<animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="240" cy="610" r="1.5">
+<animate attributeName="opacity" values="1;.2;1" dur="2.5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="890" cy="75" r="1">
+<animate attributeName="opacity" values=".1;1;.1" dur="1.4s" repeatCount="indefinite"/>
+</circle>
+
+</g>
+
+<!-- top status -->
+
+<text x="64" y="66"
+font-family="monospace"
+font-size="13"
+letter-spacing="4"
+fill="#ff85c2">
+ABSV / DIGITAL SYSTEM 01
+</text>
+
+<circle cx="1062" cy="61" r="5" fill="#63f2c6">
+<animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>
+</circle>
+
+<text x="1077" y="66"
+font-family="monospace"
+font-size="11"
+letter-spacing="2"
+fill="#b5bdc8">
+ACTIVE
+</text>
+
+<!-- huge title -->
+
+<text x="600" y="195"
+text-anchor="middle"
+font-family="Arial,Helvetica,sans-serif"
+font-size="64"
+font-weight="700"
+letter-spacing="7"
+fill="#ff4fa8"
+opacity=".18">
+AB SREE VAIBHAVI
+<animate attributeName="x" values="594;606;600" dur=".7s" repeatCount="indefinite"/>
+</text>
+
+<text x="600" y="195"
+text-anchor="middle"
+font-family="Arial,Helvetica,sans-serif"
+font-size="64"
+font-weight="700"
+letter-spacing="7"
+fill="#5ce6ff"
+opacity=".14">
+AB SREE VAIBHAVI
+<animate attributeName="x" values="606;594;600" dur=".9s" repeatCount="indefinite"/>
+</text>
+
+<text x="600" y="195"
+text-anchor="middle"
+font-family="Arial,Helvetica,sans-serif"
+font-size="64"
+font-weight="700"
+letter-spacing="7"
+fill="#ffffff">
+AB SREE VAIBHAVI
+</text>
+
+<rect x="280" y="225"
+width="640"
+height="3"
+rx="2"
+fill="url(#rainbow)"
+filter="url(#glow)">
+<animate attributeName="width"
+values="150;640;400;640"
+dur="4s"
+repeatCount="indefinite"/>
+<animate attributeName="x"
+values="525;280;400;280"
+dur="4s"
+repeatCount="indefinite"/>
+</rect>
+
+<text x="600" y="275"
+text-anchor="middle"
+font-family="monospace"
+font-size="15"
+letter-spacing="5"
+fill="#e9dce6">
+AI · SOFTWARE · ROBOTICS · AUTONOMOUS SYSTEMS
+</text>
+
+<!-- LEFT PANEL -->
+
+<rect x="65" y="350" width="320" height="245"
+rx="22"
+fill="#0b0b12"
+fill-opacity=".72"
+stroke="#ff5daf"
+stroke-opacity=".55"/>
+
+<text x="95" y="390"
+font-family="monospace"
+font-size="12"
+letter-spacing="3"
+fill="#ff78bb">
+PROFILE
+</text>
+
+<text x="95" y="435"
+font-family="Arial"
+font-size="23"
+font-weight="600"
+fill="#ffffff">
+Engineering Student
+</text>
+
+<text x="95" y="469"
+font-family="monospace"
+font-size="13"
+fill="#aeb6c4">
+Bengaluru, India
+</text>
+
+<text x="95" y="515"
+font-family="monospace"
+font-size="12"
+fill="#d6cbd2">
+FOCUS
+</text>
+
+<text x="95" y="545"
+font-family="monospace"
+font-size="12"
+fill="#ff86c3">
+Artificial Intelligence
+</text>
+
+<text x="95" y="570"
+font-family="monospace"
+font-size="12"
+fill="#bb83ff">
+Software Engineering
+</text>
+
+<!-- CENTER CORE -->
+
+<circle cx="600" cy="475"
+r="75"
+fill="#0b0b12"
+stroke="url(#rainbow)"
+stroke-width="2"
+filter="url(#glow)">
+<animate attributeName="r"
+values="70;77;70"
+dur="3s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="600" cy="475"
+r="115"
+fill="none"
+stroke="#ff5daf"
+stroke-opacity=".25"/>
+
+<circle cx="600" cy="475"
+r="145"
+fill="none"
+stroke="#b471ff"
+stroke-opacity=".2"/>
+
+<circle cx="600" cy="475"
+r="175"
+fill="none"
+stroke="#5de6ff"
+stroke-opacity=".14"/>
+
+<g transform="translate(600 475)">
+<circle cx="115" cy="0" r="7" fill="#ff5daf" filter="url(#glow)"/>
+<animateTransform attributeName="transform"
+type="rotate"
+from="0"
+to="360"
+dur="5s"
+repeatCount="indefinite"/>
+</g>
+
+<g transform="translate(600 475)">
+<circle cx="145" cy="0" r="6" fill="#b675ff" filter="url(#glow)"/>
+<animateTransform attributeName="transform"
+type="rotate"
+from="0"
+to="-360"
+dur="8s"
+repeatCount="indefinite"/>
+</g>
+
+<g transform="translate(600 475)">
+<circle cx="175" cy="0" r="5" fill="#5de5ff" filter="url(#glow)"/>
+<animateTransform attributeName="transform"
+type="rotate"
+from="0"
+to="360"
+dur="11s"
+repeatCount="indefinite"/>
+</g>
+
+<text x="600" y="468"
+text-anchor="middle"
+font-family="monospace"
+font-size="14"
+letter-spacing="3"
+fill="#ffffff">
+INTELLIGENCE
+</text>
+
+<text x="600" y="492"
+text-anchor="middle"
+font-family="monospace"
+font-size="11"
+letter-spacing="3"
+fill="#ff7ebe">
+IN MOTION
+</text>
+
+<!-- RIGHT PANEL -->
+
+<rect x="815" y="350" width="320" height="245"
+rx="22"
+fill="#0b0b12"
+fill-opacity=".72"
+stroke="#59e3fa"
+stroke-opacity=".5"/>
+
+<text x="845" y="390"
+font-family="monospace"
+font-size="12"
+letter-spacing="3"
+fill="#65e5fa">
+CURRENT VECTOR
+</text>
+
+<text x="845" y="435"
+font-family="monospace"
+font-size="13"
+fill="#ffffff">
+01  Agentic AI
+</text>
+
+<text x="845" y="470"
+font-family="monospace"
+font-size="13"
+fill="#ffffff">
+02  Autonomous Systems
+</text>
+
+<text x="845" y="505"
+font-family="monospace"
+font-size="13"
+fill="#ffffff">
+03  Applied AI
+</text>
+
+<text x="845" y="540"
+font-family="monospace"
+font-size="13"
+fill="#ffffff">
+04  Robotics
+</text>
+
+<text x="845" y="575"
+font-family="monospace"
+font-size="13"
+fill="#ffffff">
+05  Space Technology
+</text>
+
+<!-- scanner -->
+
+<rect x="-300"
+y="681"
+width="300"
+height="2"
+fill="url(#rainbow)"
+filter="url(#glow)">
+<animate attributeName="x"
+values="-300;1200"
+dur="3s"
+repeatCount="indefinite"/>
+</rect>
+
+</svg>
