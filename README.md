@@ -318,46 +318,6 @@ View all repositories
 
 ---
 
-## Development Activity
-
-<div align="center">
-
-<img
-  width="100%"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=sreevaibhaviab-git&bg_color=0D1117&color=B8C0CC&line=D58FB2&point=F2CDDF&area=true&area_color=623A4E&hide_border=true"
-/>
-
-</div>
-
-<br>
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/sreevaibhaviab-git/sreevaibhaviab-git/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/sreevaibhaviab-git/sreevaibhaviab-git/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="Contribution animation"
-    src="https://raw.githubusercontent.com/sreevaibhaviab-git/sreevaibhaviab-git/output/github-contribution-grid-snake-dark.svg"
-  />
-</picture>
-
-</div>
-
-<br>
-
----
-
 ## Currently Exploring
 
 <table>
