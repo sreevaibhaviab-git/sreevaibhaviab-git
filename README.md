@@ -473,7 +473,7 @@ Interested in collaborating on ambitious work involving artificial intelligence,
 
 <br><br>
 
-<a href="YOUR_LINKEDIN_URL">
+<a href="https://www.linkedin.com/in/a-b-sree-vaibhavi-4513aa381/">
 <img
   src="https://img.shields.io/badge/LinkedIn-Connect-B76E95?style=for-the-badge&logo=linkedin&logoColor=white"
 />
@@ -481,7 +481,7 @@ Interested in collaborating on ambitious work involving artificial intelligence,
 
 &nbsp;
 
-<a href="mailto:YOUR_EMAIL">
+<a href="mailto:sreevaibhaviab@gmail.com">
 <img
   src="https://img.shields.io/badge/Email-Contact-D292B1?style=for-the-badge&logo=gmail&logoColor=white"
 />
